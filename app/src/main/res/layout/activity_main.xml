@@ -18,15 +18,15 @@
             android:layout_height="match_parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/takePhotoButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ほげ"
+            android:layout_marginBottom="16dp"
+            android:text="写真を撮る"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/button"
@@ -35,8 +35,8 @@
             android:text="ふが"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button2"
-            app:layout_constraintTop_toTopOf="@+id/button2" />
+            app:layout_constraintStart_toEndOf="@+id/takePhotoButton"
+            app:layout_constraintTop_toTopOf="@+id/takePhotoButton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
